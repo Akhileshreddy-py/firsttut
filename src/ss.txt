@@ -1,0 +1,63 @@
+async function ak() {
+    let resp = await fetch(
+" https://newsapi.org/v2/everything?q=tesla&from=2021-10-10&sortBy=publishedAt&apiKey=046d2e14e65b4d88acbaaa64c353139b" );
+    let res = await resp.json();
+    console.log(res);
+    let value = res.articles.map((n) => {
+      return  <h1> wow </h1>
+    });
+    console.log(value);
+   setV({value});
+  }
+  console.log(res);
+  let [v, setV] = useState(0);
+  useEffect(ak, []);
+  return <div> hello {v}</div>;
+}
+
+
+
+
+
+
+
+
+
+  let [ab,sA]=useState(0);
+  let a = [10, 20, 23, 34, 4, 22, 34, 233];
+  let res = a.map((n) => {
+    return <h1> hello {n} </h1>;
+  });
+  console.log(res);
+  useEffect(()=>{sA(res);},[]);
+  async function ak() {
+    let resp = await fetch(
+" https://newsapi.org/v2/everything?q=tesla&from=2021-10-10&sortBy=publishedAt&apiKey=046d2e14e65b4d88acbaaa64c353139b" );
+    let res = await resp.json();
+    console.log(res);
+    let value = res.articles.map((n) => {
+      return  <h1> wow </h1>
+    });
+    console.log(value);
+   setV({value});
+  }
+  console.log(res);
+  let [v, setV] = useState(0);
+  useEffect(ak, []);
+  return <div> hello {v}</div>;
+}
+
+
+apikey="AIzaSyBeVVdpOo4bOMpIjWSU4xfg8ta_kQ9F3gU"
+
+
+
+
+
+
+
+
+
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FAfHeslmugk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+#rowak
+{
+  display:inline-block;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
